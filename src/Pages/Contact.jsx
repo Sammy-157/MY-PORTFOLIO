@@ -8,7 +8,7 @@ const Contact = () => {
       <h1>FEEL FREE TO CONTACT ME!</h1>
       <div className="contact-sections">
         <div className="image-div">
-          <img src={contactImage} className="image"></img>
+          <img src={contactImage}  alt="contact pic" className="image"></img>
         </div>
         <div className="contact-1">
           <div className="me">

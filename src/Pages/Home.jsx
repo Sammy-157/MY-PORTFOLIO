@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/Home.css";
-import sammy from  "../assets/sammy.jng";
+import sammy from  "../assets/sammy.jpg";
 
 const Home = () => {
   return (
