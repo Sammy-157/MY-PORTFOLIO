@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/Home.css";
+import sammy from  "../assets/sammy.jng";
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
 
           
         <div className="home-right">
-          <img src="src/assets/sammy.jpg" alt="myself"></img>
+          <img src={sammy} alt="myself"></img>
         </div>
       </div>
     </div>

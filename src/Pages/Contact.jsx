@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/Contact.css";
-import "../assets/contact.jpg";
+import  contactImage from "../assets/contact.jpg";
 
 const Contact = () => {
   return (
@@ -8,7 +8,7 @@ const Contact = () => {
       <h1>FEEL FREE TO CONTACT ME!</h1>
       <div className="contact-sections">
         <div className="image-div">
-          <img src="src/assets/contact.jpg" className="image"></img>
+          <img src={contactImage} className="image"></img>
         </div>
         <div className="contact-1">
           <div className="me">
