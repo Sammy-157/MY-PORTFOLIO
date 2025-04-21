@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
-import '../styles/Footer.css';
+import '../Styles/Footer.css';
 
 const Footer = () => {
   return (
