@@ -1,0 +1,19 @@
+.image-icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+}

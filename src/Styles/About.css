@@ -1,0 +1,130 @@
+.about {
+  background-color: #FFC2F1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 0 auto;
+  
+}
+
+.about .about-2 {
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.about-sections {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.about-left,
+.about-right {
+  flex: 1;
+  width: 50%;
+}
+
+.about-right {
+  padding: 0 5%;
+  margin-right: -20px;
+  
+}
+
+
+.about-right h1 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #00c3ff, #ee0987c2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-right p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+  font-size: 1rem;
+  background: linear-gradient(to right, #00c3ff, #ee0987c2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+.paragraph-wrapper {
+  text-align: justify; 
+  padding: 1rem;       
+  max-width: 600px;   
+  margin-left: auto;   
+  margin-right: auto;
+  margin-right: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+  .about-sections {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .about-right {
+    padding: 0 20px;
+  }
+
+  .about-right h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-right p {
+    text-align: justify;
+    font-size: 0.95rem;
+  }
+
+  .about-image {
+    padding: 0;
+  }
+
+  .about-image img {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+  
+}

@@ -1,0 +1,108 @@
+/* Card Styling */
+.main-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 30%; /* Default width for large screens */
+  border: 1px solid;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: transform 0.7s ease;
+}
+
+.main-card:hover {
+  transform: scale(1.05);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-image img {
+  width: 40px; /* Increase image size for better visibility */
+  height: 40px;
+}
+
+.h1 {
+  font-size: 1.3rem; /* Heading size on larger screens */
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.information {
+  margin: 20px 20px;
+  text-align: justify;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Responsive: Tablet devices */
+@media (max-width: 1024px) {
+  .main-card {
+    width: 45%; /* Take up 45% of width */
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .card-image img {
+    width: 50px; /* Adjust image size for tablets */
+    height: 50px;
+  }
+
+  .information {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive: Mobile devices */
+@media (max-width: 768px) {
+  .main-card {
+    width: 90%; /* Full width for smaller devices */
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Larger font size for mobile screens */
+  }
+
+  .card-image img {
+    width: 60px; /* Increase image size for mobile */
+    height: 60px;
+  }
+
+  .information {
+    font-size: 1rem; /* Increase text size on mobile */
+  }
+}
+
+/* Extra small screens (Phones in portrait mode) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .card-image img {
+    width: 50px; /* Adjust image size */
+    height: 50px;
+  }
+
+  .information {
+    font-size: 0.95rem;
+  }
+}
+
+
+
