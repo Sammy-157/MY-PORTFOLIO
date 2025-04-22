@@ -1,6 +1,5 @@
 .main-div {
   width: 100%;
- 
   display: flex;
   flex-direction: column;
   background-color: #E2F87B;
@@ -8,7 +7,15 @@
   padding: 40px 20px;
   border-radius: 20px;
   margin-bottom: 60px;
-  
+  box-sizing: border-box;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .main-div h1 {
@@ -20,17 +27,21 @@
   font-size: 2rem;
 }
 
+/* CONTACT SECTION */
 .contact-sections {
   display: flex;
   flex-direction: row;
   gap: 60px;
-  align-items: center;     /* vertically center */
-  justify-content: center; /* horizontally center */
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
+.image-div {
+  max-width: 400px;
+  flex: 1;
+}
 
-/* IMAGE */
 .image {
   width: 100%;
   max-width: 370px;
@@ -44,22 +55,19 @@
 }
 
 /* LEFT SIDE HEADING */
+.me {
+  font-size: xx-large;
+  font-style: oblique;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-  .me {
-    font-size: xx-large;
-    font-style: oblique;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .details-main-wrapper {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  
+.details-main-wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
 
-/* CONTACT SECTION */
 .contact-1 {
   color: black;
   font-family: "Times New Roman", Times, serif;
@@ -67,15 +75,8 @@
   flex-direction: column;
   gap: 20px;
   flex: 1;
-  min-width: 300px;
-}
-.contact-1 .me {
-  
-    text-align: center;
-    width: 100%;
-    margin-bottom: 20px;
-  
-  
+  max-width: 600px;
+  min-width: 280px;
 }
 
 .details-1 {
@@ -92,17 +93,6 @@
   background-color: #f2ede6;
   padding: 8px;
 }
-
-/* CONTACT & LOCATION */
-.details-main {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
 
 .fullName,
 .email,
@@ -125,6 +115,11 @@ button {
 button:hover {
   transform: scale(1.05);
   transition: 0.3s;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .contact-2,
@@ -167,21 +162,19 @@ button:hover {
   .details-2 {
     padding-left: 0;
     align-items: flex-start;
+    margin-left: 0;
   }
 
   .image {
     max-width: 100%;
   }
-}
-/* Center the button wrapper on small screens */
-@media (max-width: 768px) {
+
   .button-wrapper {
-    display: flex;
     justify-content: center;
   }
 
   .button-wrapper button {
-    width: 80%; /* optional: make the button wider for mobile */
+    width: 80%;
     max-width: 300px;
   }
 }

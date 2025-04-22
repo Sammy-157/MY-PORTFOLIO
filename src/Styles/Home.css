@@ -1,3 +1,4 @@
+/* Base styles */
 .home-main {
   display: flex;
   flex-direction: column;
@@ -8,8 +9,6 @@
   margin-bottom: 60px;
   padding: 20px;
   box-sizing: border-box;
-  margin-left: 15px;
-
 }
 
 .home-main h1 {
@@ -82,7 +81,7 @@
   margin: 10px auto 0 auto;
 }
 
-/* Media Query for Mobile Screens */
+/* Tablet and mobile styles */
 @media (max-width: 768px) {
   .home-sections {
     flex-direction: column-reverse;
@@ -113,4 +112,24 @@
   .home-right img {
     width: 70%;
   }
+}
+
+/* Extra small devices like iPhone SE/11 */
+@media (max-width: 480px) {
+  .home-left p {
+    font-size: 1rem;
+  }
+
+  .home-left b {
+    font-size: 1.2rem;
+  }
+
+  .home-right img {
+    width: 60%;
+  }
+}
+
+/* Global box-sizing reset (optional but helpful) */
+* {
+  box-sizing: border-box;
 }
