@@ -25,7 +25,8 @@ const Services = () => {
 
 My focus is on performance, accessibility, and seamless user experience across all devices and browsers. 
 Whether it's a portfolio, e-commerce platform, or a business site,
-I bring your vision to life with modern tools and frameworks."
+I bring your vision to life with modern tools and frameworks.
+Full-stack experience with frontend & backend technologies."
             bgColor="#FFC22E"
           />
           <Card
@@ -51,7 +52,9 @@ I build fast, intuitive mobile apps tailored "
        every design is crafted with creativity and purpose.
 
 I combine aesthetics with strategy to ensure your visuals not only look great but also connect with your audience.
- Whether you need a full brand identity or a one-off design, I’ve got you covered."
+ Whether you need a full brand identity or a one-off design, I’ve got you covered.
+ Creating stunning visuals for brand identity and marketing.
+"
             bgColor="#B4D772"
           />
 

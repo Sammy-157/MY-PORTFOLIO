@@ -8,7 +8,8 @@
   margin-bottom: 60px;
   padding: 20px;
   box-sizing: border-box;
-  margin-left: 20px;
+  margin-left: 15px;
+
 }
 
 .home-main h1 {
@@ -86,6 +87,7 @@
   .home-sections {
     flex-direction: column-reverse;
     text-align: center;
+    justify-content: center;
     gap: 30px;
   }
 
