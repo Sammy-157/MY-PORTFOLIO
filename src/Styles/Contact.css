@@ -1,14 +1,14 @@
 .main-div {
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
   background-color: #E2F87B;
-  margin: 0 auto;
   justify-content: center;
   padding: 40px 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 60px;
+  
 }
 
 .main-div h1 {

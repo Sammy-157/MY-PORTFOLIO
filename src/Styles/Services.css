@@ -3,7 +3,7 @@
   background-color: #FEFEFE;
   margin: 0 auto;
   border: 1px solid;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 100%;
   padding: 20px;
   margin-bottom: 60px;
@@ -12,7 +12,7 @@
 /* Styling for the heading inside services section */
 .myservices-div h1 {
   font-size: 3rem;
-  color:black;
+  color: black;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -56,6 +56,7 @@
   .devs-1, .devs-2 {
     flex-direction: column;
     gap: 40px; /* Reduce gap for better mobile alignment */
+    align-items: center; /* Center items for better alignment */
   }
 
   .services-div {
@@ -75,6 +76,7 @@
   .devs-1, .devs-2 {
     flex-direction: column; /* Stack the cards vertically */
     gap: 30px;
+    align-items: center; /* Center the cards vertically */
   }
 
   .services-div {
@@ -91,7 +93,12 @@
 
   .devs-1 .main-card,
   .devs-2 .main-card {
-    width: 100%; /* Full width for cards on small devices */
+    width: 90%; /* Slight margin on mobile screens */
+    padding: 15px; /* Padding inside cards */
+  }
+
+  .services-div {
+    width: 100%; /* Ensure full width on smaller devices */
   }
 }
 
@@ -103,9 +110,14 @@
   .devs-1 .main-card,
   .devs-2 .main-card {
     width: 100%; /* Full width for cards */
+    padding: 12px; /* Reduce padding for tight spaces */
   }
 
   .all-devs {
     gap: 15px; /* Tighten the gap between cards */
+  }
+
+  .services-div {
+    width: 100%; /* Full width for container */
   }
 }
