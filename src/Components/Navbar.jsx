@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "../Styles/Navbar.css";
 
 const Navbar = () => {
@@ -9,6 +8,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleLinkClick = () => {
+    setIsOpen(false); // close the menu after clicking
+  };
+
   return (
     <nav className="navbar">
       <div className="nav-left">
@@ -16,14 +19,14 @@ const Navbar = () => {
           ☰
         </div>
         <ul className={`nav-menu ${isOpen ? "show" : ""}`}>
-          <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
-          <li><Link to="/services" onClick={toggleMenu}>Services</Link></li>
-          <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
-          <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
+          <li><a href="#home" onClick={handleLinkClick}>Home</a></li>
+          <li><a href="#services" onClick={handleLinkClick}>Services</a></li>
+          <li><a href="#about" onClick={handleLinkClick}>About</a></li>
+          <li><a href="#contact" onClick={handleLinkClick}>Contact</a></li>
         </ul>
       </div>
 
-      <Link to="/contact" className="nav-link">Lets link up</Link>
+      <a href="#contact" className="nav-link">Lets link up</a>
     </nav>
   );
 };

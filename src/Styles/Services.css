@@ -4,8 +4,9 @@
   margin: 0 auto;
   border: 1px solid;
   border-radius: 10px;
-  width: 98%;
+  width: 100%;
   padding: 20px;
+  margin-bottom: 60px;
 }
 
 /* Styling for the heading inside services section */

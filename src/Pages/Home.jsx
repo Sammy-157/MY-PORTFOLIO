@@ -4,7 +4,7 @@ import sammy from  "../assets/sammy.jpg";
 
 const Home = () => {
   return (
-    <div className="home-main">
+    <div className="home-main" id="home">
       <h1>HOMEPAGE</h1>
       <div className="home-sections">
         <div className="home-left">

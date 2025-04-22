@@ -4,7 +4,7 @@ import kofiImage from "../assets/kofi.png";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-2">
         <div className="about-sections">
           <div className="about-left">

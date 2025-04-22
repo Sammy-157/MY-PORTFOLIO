@@ -4,7 +4,7 @@ import  contactImage from "../assets/contact.jpg";
 
 const Contact = () => {
   return (
-    <div className="main-div">
+    <div className="main-div" id="contact">
       <h1>FEEL FREE TO CONTACT ME!</h1>
       <div className="contact-sections">
         <div className="image-div">

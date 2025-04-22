@@ -8,3 +8,7 @@ body{
   background:white;
   overflow-x: hidden; /* Hides horizontal scrolling */
 }
+html {
+  scroll-behavior: smooth;
+}
+

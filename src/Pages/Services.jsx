@@ -9,7 +9,7 @@ import Mentorship from "../assets/leadership-development.png";
 const Services = () => {
   return (
    
-      <div className="services-div">
+      <div className="services-div" id="services">
         <div className="myservices-div">
         <h1>MY SERVICES!</h1>
       </div>
