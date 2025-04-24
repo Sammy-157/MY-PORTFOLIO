@@ -11,9 +11,7 @@ const Contact = () => {
           <img src={contactImage}  alt="contact pic" className="image"></img>
         </div>
         <div className="contact-1">
-          <div className="me">
-            <h2>Contact Me</h2>
-          </div>
+          
 
           <div className="details-main">
             <div className="details-1">
@@ -49,8 +47,8 @@ const Contact = () => {
             <div className="details-2">
               <div className="contact-2">
                 <b>Contact</b>
-                <a href="mailto:samuelamakwah157gmail.com">
-                  samuelamakwah157gmail.com
+                <a href="mailto:samuelamakwah157@gmail.com">
+                  samuelamakwah157@gmail.com
                 </a>
               </div>
               <div className="location">

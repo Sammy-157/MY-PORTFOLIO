@@ -1,6 +1,6 @@
 .about {
   width: 100%;
-  background-color: #ffc2f1;
+  background-color: white;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -15,7 +15,7 @@
 }
 
 .about .about-2 {
-  background-color: white;
+  background-color:#EDEDED;
   border-radius: 20px;
   width: 100%;
   max-width: 1200px;
@@ -54,9 +54,7 @@
   margin-bottom: 16px;
   line-height: 1.6;
   font-size: 1rem;
-  background: linear-gradient(to right, #00c3ff, #ee0987c2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  
 }
 
 .about-image {

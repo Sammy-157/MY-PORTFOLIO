@@ -11,7 +11,7 @@ const Services = () => {
    
       <div className="services-div" id="services">
         <div className="myservices-div">
-        <h1>MY SERVICES!</h1>
+        <h1>MY SERVICES😎</h1>
       </div>
 
       <div className="all-devs">
@@ -27,7 +27,7 @@ My focus is on performance, accessibility, and seamless user experience across a
 Whether it's a portfolio, e-commerce platform, or a business site,
 I bring your vision to life with modern tools and frameworks.
 Full-stack experience with frontend & backend technologies."
-            bgColor="#FFC22E"
+            bgColor="#FFC2F1"
           />
           <Card
             pic={appDev}
@@ -39,7 +39,7 @@ Full-stack experience with frontend & backend technologies."
 Whether you need a personal app, a business tool, or a full-featured product, 
 Your app will be ready for both Android and iOS platforms with a single codebase.
 I build fast, intuitive mobile apps tailored "
-            bgColor="#FF6018"
+            bgColor="#B4D772"
           />
         </div>
 
@@ -55,7 +55,7 @@ I combine aesthetics with strategy to ensure your visuals not only look great bu
  Whether you need a full brand identity or a one-off design, I’ve got you covered.
  Creating stunning visuals for brand identity and marketing.
 "
-            bgColor="#B4D772"
+            bgColor="#FFC2F1"
           />
 
           <Card
@@ -69,7 +69,7 @@ I combine aesthetics with strategy to ensure your visuals not only look great bu
 I combine hands-on experience with personalized strategy to ensure you gain both knowledge and direction. 
 Whether you're navigating your first project or building a career path, 
 I’m here to support and guide you every step of the way."
-            bgColor="#FFC2F1"
+            bgColor="#B4D772"
           />
         </div>
       </div>
