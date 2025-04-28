@@ -27,7 +27,7 @@ My focus is on performance, accessibility, and seamless user experience across a
 Whether it's a portfolio, e-commerce platform, or a business site,
 I bring your vision to life with modern tools and frameworks.
 Full-stack experience with frontend & backend technologies."
-            bgColor="#FFC2F1"
+            bgColor="#FFFFFF"
           />
           <Card
             pic={appDev}
@@ -39,7 +39,7 @@ Full-stack experience with frontend & backend technologies."
 Whether you need a personal app, a business tool, or a full-featured product, 
 Your app will be ready for both Android and iOS platforms with a single codebase.
 I build fast, intuitive mobile apps tailored "
-            bgColor="#B4D772"
+            bgColor="#EDEDED"
           />
         </div>
 
@@ -55,7 +55,7 @@ I combine aesthetics with strategy to ensure your visuals not only look great bu
  Whether you need a full brand identity or a one-off design, I’ve got you covered.
  Creating stunning visuals for brand identity and marketing.
 "
-            bgColor="#FFC2F1"
+            bgColor="#FFFFFF"
           />
 
           <Card
@@ -69,7 +69,7 @@ I combine aesthetics with strategy to ensure your visuals not only look great bu
 I combine hands-on experience with personalized strategy to ensure you gain both knowledge and direction. 
 Whether you're navigating your first project or building a career path, 
 I’m here to support and guide you every step of the way."
-            bgColor="#B4D772"
+            bgColor="#EDEDED"
           />
         </div>
       </div>
