@@ -135,3 +135,39 @@ hr {
     max-width: 250px;
   }
 }
+
+/* === Animation & Hover Enhancements === */
+
+.about-image img {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-image img:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+hr::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #00c3ff, #ee0987);
+  transition: 0.4s ease;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+hr:hover::after {
+  width: 100%;
+}
+
