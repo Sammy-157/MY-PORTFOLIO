@@ -1,32 +1,54 @@
 import React from "react";
 import "../Styles/Home.css";
-import sammy from  "../assets/sammy.jpg";
+import sammy from "../assets/sammy.jpg";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="home-main" id="home">
-      <h1>HOMEPAGE</h1>
+    <motion.div
+      className="home-main"
+      id="home"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <div className="home-sections">
-        <div className="home-left">
+        {/* Left Section */}
+        <motion.div
+          className="home-left"
+          initial={{ x: -100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
           <b>HELLO,</b>
           <p>I AM SAMUEL KOFI NTEM AMANKWAH,</p>
-          <p> A JUNIOR SOFTWARE DEVELOPER</p>
+          <p>A JUNIOR SOFTWARE DEVELOPER</p>
           <b>WELCOME</b>
           <p>THIS IS MY PORTFOLIO</p>
+
           <div className="resume">
             <b>DOWNLOAD RESUME HERE 👇</b>
-            
-            <button className="button-wrapper">DOWNLOAD</button>
-            
+            <motion.button
+              className="button-wrapper"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              DOWNLOAD
+            </motion.button>
           </div>
-        </div>
+        </motion.div>
 
-          
-        <div className="home-right">
-          <img src={sammy} alt="myself"></img>
-        </div>
+        {/* Right Section */}
+        <motion.div
+          className="home-right"
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          <img src={sammy} alt="samuel kofi" />
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
