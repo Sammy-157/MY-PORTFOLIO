@@ -5,13 +5,39 @@ import Reactpic from "../assets/react.svg";
 import Photoshop from "../assets/photoshop.png";
 import appDev from "../assets/app-development.png";
 import Mentorship from "../assets/leadership-development.png";
+import { motion } from "framer-motion";
 
 const Services = () => {
+  const projectData = [
+    {
+      id: 1,
+      title: "Portfolio Website",
+      description: "A personal portfolio built with React and Tailwind CSS.",
+      image: "https://via.placeholder.com/300x200",
+      liveLink: "#",
+      codeLink: "#",
+    },
+    {
+      id: 2,
+      title: "E-commerce Store",
+      description: "A simple online shop made using React & Firebase.",
+      image: "https://via.placeholder.com/300x200",
+      liveLink: "#",
+      codeLink: "#",
+    },
+  ];
+
   return (
-   
-      <div className="services-div" id="services">
-        <div className="myservices-div">
-        <h1>MY SERVICES😎</h1>
+    <motion.div
+      className="services-div"
+      id="services"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
+    >
+      <div className="myservices-div">
+        <h1>MY SERVICES 😎</h1>
       </div>
 
       <div className="all-devs">
@@ -26,7 +52,7 @@ const Services = () => {
 My focus is on performance, accessibility, and seamless user experience across all devices and browsers. 
 Whether it's a portfolio, e-commerce platform, or a business site,
 I bring your vision to life with modern tools and frameworks.
-Full-stack experience with frontend & backend technologies."
+Full-stack experience with frontend & backend technologies"
             bgColor="#FFFFFF"
           />
           <Card
@@ -38,7 +64,7 @@ Full-stack experience with frontend & backend technologies."
 
 Whether you need a personal app, a business tool, or a full-featured product, 
 Your app will be ready for both Android and iOS platforms with a single codebase.
-I build fast, intuitive mobile apps tailored "
+I build fast, intuitive mobile apps tailored"
             bgColor="#EDEDED"
           />
         </div>
@@ -53,11 +79,9 @@ I build fast, intuitive mobile apps tailored "
 
 I combine aesthetics with strategy to ensure your visuals not only look great but also connect with your audience.
  Whether you need a full brand identity or a one-off design, I’ve got you covered.
- Creating stunning visuals for brand identity and marketing.
-"
+ Creating stunning visuals for brand identity and marketing."
             bgColor="#FFFFFF"
           />
-
           <Card
             pic={Mentorship}
             heading="MENTORSHIP"
@@ -73,8 +97,34 @@ I’m here to support and guide you every step of the way."
           />
         </div>
       </div>
+
+     
+      <div className="projects-section" id="projects">
+        <h1 className="projects-title">MY PROJECTS 💻</h1>
+        <div className="projects-grid">
+          {projectData.map((project) => (
+            <motion.div
+              key={project.id}
+              className="project-card"
+              whileHover={{ scale: 1.03 }}
+              transition={{ duration: 0.3 }}
+            >
+              <img src={project.image} alt={project.title} />
+              <h2>{project.title}</h2>
+              <p>{project.description}</p>
+              <div className="project-buttons">
+                <a href={project.liveLink} target="_blank" rel="noreferrer">
+                  Live Demo
+                </a>
+                <a href={project.codeLink} target="_blank" rel="noreferrer">
+                  Source Code
+                </a>
+              </div>
+            </motion.div>
+          ))}
+        </div>
       </div>
-   
+    </motion.div>
   );
 };
 
