@@ -170,7 +170,7 @@ button:hover {
 
  button {
   color: white;
-  background: linear-gradient(to right, #00c3ff, #ee0987);
+  
   padding: 10px 25px;
   border-radius: 25px;
   border: none;
@@ -179,12 +179,12 @@ button:hover {
   font-weight: bold;
   font-size: 1rem;
   transition: all 0.3s ease;
-  box-shadow: 0 0 5px #ee0987c2, 0 0 15px #00c3ff;
+  
 }
 
 button:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 10px #ee0987c2, 0 0 25px #00c3ff;
+  
 }
 
 input::placeholder {

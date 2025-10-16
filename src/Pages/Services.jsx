@@ -25,6 +25,38 @@ const Services = () => {
       liveLink: "#",
       codeLink: "#",
     },
+    {
+      id: 2,
+      title: "E-commerce Store",
+      description: "A simple online shop made using React & Firebase.",
+      image: "https://via.placeholder.com/300x200",
+      liveLink: "#",
+      codeLink: "#",
+    },
+    {
+      id: 2,
+      title: "E-commerce Store",
+      description: "A simple online shop made using React & Firebase.",
+      image: "https://via.placeholder.com/300x200",
+      liveLink: "#",
+      codeLink: "#",
+    },
+    {
+      id: 2,
+      title: "E-commerce Store",
+      description: "A simple online shop made using React & Firebase.",
+      image: "https://via.placeholder.com/300x200",
+      liveLink: "#",
+      codeLink: "#",
+    },
+    {
+      id: 2,
+      title: "E-commerce Store",
+      description: "A simple online shop made using React & Firebase.",
+      image: "https://via.placeholder.com/300x200",
+      liveLink: "#",
+      codeLink: "#",
+    },
   ];
 
   return (
@@ -119,6 +151,8 @@ I’m here to support and guide you every step of the way."
                 <a href={project.codeLink} target="_blank" rel="noreferrer">
                   Source Code
                 </a>
+               
+                
               </div>
             </motion.div>
           ))}
