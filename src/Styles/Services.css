@@ -1,9 +1,8 @@
 /* Main wrapper for services section */
 .services-div {
-  background-color: #FEFEFE;
+  background-color: #fefefe;
   margin: 0 auto;
-  border: 1px solid;
-  border-radius: 20px;
+
   width: 100%;
   max-width: 1200px;
   padding: 20px;
@@ -49,7 +48,8 @@
 
 /* Tablet-friendly layout */
 @media (max-width: 1024px) {
-  .devs-1, .devs-2 {
+  .devs-1,
+  .devs-2 {
     flex-direction: column;
     gap: 40px;
     align-items: center;
@@ -74,7 +74,8 @@
     font-size: 2rem;
   }
 
-  .devs-1, .devs-2 {
+  .devs-1,
+  .devs-2 {
     flex-direction: column;
     gap: 30px;
     align-items: center;

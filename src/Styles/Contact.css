@@ -1,14 +1,13 @@
 .main-div {
+   background-color: #FEFEFE;
+  margin: 0 auto;
+ 
+
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: #FFFFFF;
-  justify-content: center;
-  padding: 40px 20px;
+  max-width: 1200px;
+  padding: 20px;
   margin-bottom: 60px;
   box-sizing: border-box;
-  border-radius: 20px;
-  
   
 }
 

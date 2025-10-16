@@ -27,7 +27,7 @@ const Home = () => {
           <p>THIS IS MY PORTFOLIO</p>
 
           <div className="resume">
-            <b>DOWNLOAD RESUME HERE 👇</b>
+            <b>DOWNLOAD RESUME HERE </b>
             <motion.button
               className="button-wrapper"
               whileHover={{ scale: 1.05 }}
