@@ -40,7 +40,7 @@ const About = () => {
             <h1>ABOUT ME</h1>
             <div className="paragraph-wrapper">
               <p>
-                I'm Samuel Amankwah, a Level 3J00 student at the University of
+                I'm Samuel Amankwah, a Level 300 student at the University of
               Ghana. As a passionate software developer, I'm driven by a desire
               to create innovative solutions that make a real impact. With a
               strong foundation in computer science and a keen interest in
