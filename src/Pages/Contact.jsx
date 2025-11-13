@@ -34,11 +34,11 @@ const Contact = () => {
               </div>
 
               <div className="email">
-                <label htmlFor="email">E-mail</label>
+                <label htmlFor="email">Message</label>
                 <input
-                  type="email"
-                  id="email"
-                  placeholder="e.g. samuel@example.com"
+                  type="message"
+                  id="message"
+                  placeholder="hello, there"
                   required
                   className="box"
                 />
