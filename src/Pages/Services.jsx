@@ -6,6 +6,8 @@ import Photoshop from "../assets/photoshop.png";
 import appDev from "../assets/app-development.png";
 import Mentorship from "../assets/leadership-development.png";
 import { motion } from "framer-motion";
+import logo from "../assets/logo.jpg";
+import portfolio from "../assets/portfolio.png";
 
 const Services = () => {
   const projectData = [
@@ -13,7 +15,7 @@ const Services = () => {
       id: 1,
       title: "Portfolio Website",
       description: "A personal portfolio built with React and Tailwind CSS.",
-      image: "https://via.placeholder.com/300x200",
+      image: portfolio,
       liveLink: "https://samuelamankwah.netlify.app/",
       codeLink: "https://github.com/Sammy-157/MY-PORTFOLIO.git",
     },
@@ -21,7 +23,7 @@ const Services = () => {
       id: 2,
       title: "E-commerce Store 1 ",
       description: "A simple online shop made using React & Firebase.",
-      image: "https://via.placeholder.com/300x200",
+      image: logo,
       liveLink: "https://girlhood.netlify.app/",
       codeLink: "https://github.com/Sammy-157/Fashion-Shop.git",
     },
@@ -29,7 +31,7 @@ const Services = () => {
       id: 2,
       title: "E-commerce Store 2 ", 
       description: "A simple online shop made using React & Firebase.",
-      image: "https://via.placeholder.com/300x200",
+      image: logo,
       liveLink: "#",
       codeLink: "#",
     },

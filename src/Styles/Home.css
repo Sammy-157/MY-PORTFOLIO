@@ -70,10 +70,10 @@
 .resume button {
   width: 200px;
   display: block;
-  margin: 0 auto;
   padding: 10px;
   font-size: 1rem;
   cursor: pointer;
+
 }
 
 .home-right img {
