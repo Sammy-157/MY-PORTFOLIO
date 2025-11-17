@@ -1,12 +1,12 @@
 .about {
-  background-color: red;
+  background-color: white;
   margin: 0 auto;
   width: 100%;
   max-width: 1200px;
   padding: 20px;
   margin-bottom: 60px;
   box-sizing: border-box;
-  margin-left: 25px;
+ 
 }
 
 .about .about-2 {
@@ -24,6 +24,7 @@
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
+  background-color: #EDEDED;
  
 }
 
