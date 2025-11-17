@@ -10,6 +10,7 @@
   padding: 20px;
   box-sizing: border-box;
     margin: 0 auto;
+     margin-left: 25px;
 }
 
 .home-main h1 {
@@ -31,6 +32,7 @@
   flex-wrap: wrap;
    margin: 0 auto;
   height: 800px;
+
 }
 
 .home-left,
@@ -69,10 +71,13 @@
 
 .resume button {
   width: 200px;
-  display: block;
+  display: flex;
   padding: 10px;
   font-size: 1rem;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
+
 
 }
 
@@ -110,6 +115,9 @@
   .resume button {
     width: 100%;
     max-width: 200px;
+    align-items: center;
+  justify-content: center;
+
   }
 
   .home-right img {

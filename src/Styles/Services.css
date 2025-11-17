@@ -2,12 +2,12 @@
 .services-div {
   background-color: #fefefe;
   margin: 0 auto;
-
   width: 100%;
   max-width: 1200px;
   padding: 20px;
   margin-bottom: 60px;
   box-sizing: border-box;
+   margin-left: 25px;
 }
 
 /* Heading styling */
@@ -19,7 +19,7 @@
 }
 
 .myservices-div h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: black;
   text-align: center;
   margin: 0;
@@ -121,9 +121,9 @@
 
 .projects-title {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 40px;
-  background: linear-gradient(to right, #00c3ff, #ee0987);
+  background: black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

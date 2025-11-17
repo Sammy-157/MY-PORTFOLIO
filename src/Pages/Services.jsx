@@ -81,30 +81,31 @@ const Services = () => {
         <div className="devs-1">
           <Card
             pic={Reactpic}
-            heading="WEB DEVELOPMENT"
+            heading="REACT DEVELOPMENT"
             info=""
             bgColor="#FFFFFF"
+          />
+           <Card
+            pic={django}
+            heading="DJANGO"
+            info=""
+             bgColor="#FFFFFF"
           />
           <Card
             pic={appDev}
             heading="APP DEVELOPMENT"
             info=""
-            bgColor="#EDEDED"
+            bgColor="#FFFFFF"
           />
         </div>
 
         <div className="devs-2">
-          <Card
-            pic={Photoshop}
-            heading="GRAPHIC DESIGNING"
-            info=""
-            bgColor="#FFFFFF"
-          />
+          
           <Card
             pic={Mentorship}
             heading="MENTORSHIP"
             info=""
-            bgColor="#EDEDED"
+            bgColor="#FFFFFF"
           />
           <Card
             pic={js}
@@ -112,18 +113,20 @@ const Services = () => {
             info=""
             bgColor="#FFFFFF"
           />
+         
           <Card
-            pic={django}
-            heading="DJANGO"
+            pic={Photoshop}
+            heading="PHOTOSHOP"
             info=""
-            bgColor="#EDEDED"
+            bgColor="#FFFFFF"
           />
+
         </div>
       </div>
 
      
       <div className="projects-section" id="projects">
-        <h1 className="projects-title">MY PROJECTS 💻</h1>
+        <h1 className="projects-title">MY PROJECTS </h1>
         <div className="projects-grid">
           {projectData.map((project) => (
             <motion.div

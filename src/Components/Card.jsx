@@ -13,6 +13,7 @@ const Card = (props) => {
         </div>
       </div>
       <div className="information">{props.info}</div>
+  
     </div>
   );
 };
