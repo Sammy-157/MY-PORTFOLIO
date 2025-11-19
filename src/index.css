@@ -1,28 +1,24 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
-  overflow-x: hidden;  /* This hides any accidental horizontal overflow */
+  overflow-x: hidden; /* This hides any accidental horizontal overflow */
 }
 
-
-body{
-  height: 100vh;
+body {
+  min-height: 100vh;
   color: black;
-  background:#EDEDED;
+  background: #ededed;
   overflow-x: hidden; /* Hides horizontal scrolling */
   box-sizing: border-box;
   width: 100%;
   -webkit-overflow-scrolling: touch;
-  align-items: center;
-  justify-content: center;
 }
 html {
   scroll-behavior: smooth;
 }
-

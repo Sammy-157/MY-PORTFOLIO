@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../Styles/Contact.css";
-import contactImage from "../assets/contact.jpg";
+import contactImage from "../assets/contact.jpg"; // Ensure this path is correct
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
@@ -15,12 +15,15 @@ const Contact = () => {
       <h1 data-aos="fade-down">FEEL FREE TO CONTACT ME!</h1>
 
       <div className="contact-sections">
+        {/* Image Section */}
         <div className="image-div" data-aos="zoom-in">
-          <img src={contactImage} alt="contact pic" className="image" />
+          <img src={contactImage} alt="Contact" className="image" />
         </div>
 
+        {/* Form & Info Section */}
         <div className="contact-1" data-aos="fade-up">
           <div className="details-main">
+            {/* Contact Form */}
             <div className="details-1">
               <div className="fullName">
                 <label htmlFor="fullName">Full Name</label>
@@ -34,14 +37,14 @@ const Contact = () => {
               </div>
 
               <div className="email">
-                <label htmlFor="email">Message</label>
-                <input
-                  type="message"
+                <label htmlFor="message">Message</label>
+                <textarea
                   id="message"
-                  placeholder="hello, there"
+                  placeholder="Hello, there"
                   required
                   className="box"
-                />
+                  rows={4}
+                ></textarea>
               </div>
 
               <div className="message">
@@ -60,15 +63,16 @@ const Contact = () => {
               </div>
             </div>
 
+            {/* Contact Info */}
             <div className="details-2" data-aos="fade-left">
               <div className="contact-2">
-                <b><FaEnvelope /> Contact</b>
+                <b><FaEnvelope /> Email</b>
                 <a href="mailto:samuelamakwah157@gmail.com">
                   samuelamakwah157@gmail.com
                 </a>
               </div>
               <div className="location">
-                <b><FaMapMarkerAlt /> Based in</b>
+                <b><FaMapMarkerAlt /> Based In</b>
                 Accra, Takoradi,<br />Ghana
               </div>
             </div>

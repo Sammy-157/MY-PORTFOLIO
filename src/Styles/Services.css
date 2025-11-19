@@ -178,9 +178,6 @@
   transition: background 0.3s ease-in-out;
 }
 
-.project-buttons a:hover {
-  background: #0079aa;
-}
 
 /* Responsive tweaks */
 @media (max-width: 768px) {
