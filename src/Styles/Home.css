@@ -29,9 +29,8 @@
   width: 100%;
   max-width: 1200px;
   flex-wrap: wrap;
-   margin: 0 auto;
+  margin: 0 auto;
   height: 800px;
-
 }
 
 .home-left,
@@ -79,9 +78,7 @@
   border-radius: 10px;
   background-color: #00c3ff;
   border: none;
-  color:white;
-
-
+  color: white;
 }
 .resume button .hover {
   background: #0079aa;
@@ -122,8 +119,7 @@
     width: 100%;
     max-width: 200px;
     align-items: center;
-  justify-content: center;
-
+    justify-content: center;
   }
 
   .home-right img {
@@ -151,20 +147,6 @@
   box-sizing: border-box;
 }
 
- .button-wrapper button {
-  color: white;
-  background:  #00c3ff;
-  padding: 10px 25px;
-  border-radius: 25px;
-  border: none;
-  font-weight: bold;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
- 
-}
-
- .button-wrapper button:hover {
+.button-wrapper button:hover {
   transform: scale(1.05);
-
 }

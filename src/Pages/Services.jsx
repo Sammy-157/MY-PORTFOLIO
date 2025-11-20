@@ -9,8 +9,7 @@ import { motion } from "framer-motion";
 import logo from "../assets/logo.jpg";
 import portfolio from "../assets/portfolio.png";
 import js from "../assets/js.png";
-import django from "../assets/django.png"
-
+import django from "../assets/django.png";
 
 const Services = () => {
   const projectData = [
@@ -32,7 +31,7 @@ const Services = () => {
     },
     {
       id: 2,
-      title: "E-commerce Store 2 ", 
+      title: "E-commerce Store 2 ",
       description: "A simple online shop made using React & Firebase.",
       image: logo,
       liveLink: "#",
@@ -85,12 +84,22 @@ const Services = () => {
             info=""
             bgColor="#FFFFFF"
           />
-           <Card
-            pic={django}
-            heading="DJANGO"
+
+          <Card pic={django} heading="DJANGO" info="" bgColor="#FFFFFF" />
+          
+
+          <Card pic={js} heading="JAVASCRIPT" info="" bgColor="#FFFFFF" />
+        </div>
+
+        <div className="devs-2">
+          <Card
+            pic={Mentorship}
+            heading="MENTORSHIP"
             info=""
-             bgColor="#FFFFFF"
+            bgColor="#FFFFFF"
           />
+
+          <Card pic={Photoshop} heading="PHOTOSHOP" info="" bgColor="#FFFFFF" />
           <Card
             pic={appDev}
             heading="APP DEVELOPMENT"
@@ -98,33 +107,8 @@ const Services = () => {
             bgColor="#FFFFFF"
           />
         </div>
-
-        <div className="devs-2">
-          
-          <Card
-            pic={Mentorship}
-            heading="MENTORSHIP"
-            info=""
-            bgColor="#FFFFFF"
-          />
-          <Card
-            pic={js}
-            heading="JAVASCRIPT"
-            info=""
-            bgColor="#FFFFFF"
-          />
-         
-          <Card
-            pic={Photoshop}
-            heading="PHOTOSHOP"
-            info=""
-            bgColor="#FFFFFF"
-          />
-
-        </div>
       </div>
 
-     
       <div className="projects-section" id="projects">
         <h1 className="projects-title">MY PROJECTS </h1>
         <div className="projects-grid">
@@ -145,8 +129,6 @@ const Services = () => {
                 <a href={project.codeLink} target="_blank" rel="noreferrer">
                   Source Code
                 </a>
-               
-                
               </div>
             </motion.div>
           ))}
